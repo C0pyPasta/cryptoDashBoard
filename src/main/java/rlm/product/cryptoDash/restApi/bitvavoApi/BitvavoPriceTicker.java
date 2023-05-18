@@ -8,17 +8,17 @@ import org.json.*;
 * */
 
 public class BitvavoPriceTicker {
-  private double btcPrice;
-  private double adaPrice;
-  private double xtzPrice;
-  private double maticPrice;
-  private double ethPrice;
-  private double vetPrice;
-  private double algoPrice;
-  private double ontPrice;
-  private double solPrice;
-  private double linkPrice;
-  private double icxPrice;
+  private static double btcPrice;
+  private static double adaPrice;
+  private static double xtzPrice;
+  private static double maticPrice;
+  private static double ethPrice;
+  private static double vetPrice;
+  private static double algoPrice;
+  private static double ontPrice;
+  private static double solPrice;
+  private static double linkPrice;
+  private static double icxPrice;
 
 
   public void startTicking(){

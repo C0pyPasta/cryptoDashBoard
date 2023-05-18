@@ -1,10 +1,9 @@
 body {
-    background-color: slategray;
+    background-color: rgba(78, 84, 90, 0.747);
 }
 
 #choicePanel {
     width: 40%;
-    background-color: cadetblue;
     border: 2px solid black;
     border-radius: 5px;
     margin-left: auto;
@@ -17,7 +16,6 @@ body {
 }
 
 #cryptoDashTableDivision {
-    background-color:silver;
     border-bottom: 2px solid black;
     border-right: 2px solid black ;
     border-radius: 5px;
@@ -30,7 +28,6 @@ body {
 }
 
 .mainTable {
-    background-color: cadetblue;
     border-radius: 5px;
     width: 100%;
 }
@@ -49,6 +46,7 @@ label {
 }
 
 input {
+    background-color: rgba(41, 205, 205, 0.788);
     border-bottom: 2px solid black;
     border-right: 2px solid black ;
     border-radius: 5px;
@@ -56,10 +54,11 @@ input {
     font-weight: bolder;
     font-size: 17px;   
     margin-right: 10px;
-    width: 120px;
+    width: 115px;
 }
 
 select {
+    background-color: rgba(41, 205, 205, 0.788);
     border-bottom: 2px solid black;
     border-right: 2px solid black ;
     border-radius: 5px;
@@ -69,6 +68,13 @@ select {
     margin-right: 10px;
     height: 23px;
     width: 120px;
+}
+
+select  option:hover,
+        option:focus,
+        option:active
+{
+    outline-color: rgba(41, 205, 205, 0.788);
 }
 
 button {
